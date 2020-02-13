@@ -38,7 +38,7 @@ html{
 }
 
 .main-nav a:hover {
-    background-color: #ff810a;
+    background-color: RGB(78, 173, 248);
 }
 
 #kotlin{
@@ -111,8 +111,6 @@ h2{
     font-size: 50px;
 }
 
-/*
 body{
-    background-color: RGB(202, 42, 29);
+    background-color: rgb(224, 206, 206);
 }
-*/
