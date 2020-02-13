@@ -14,7 +14,7 @@ html{
 }
 
 .bar{
-    background-color: #cf2929;
+    background-color: RGB(202, 42, 29);
     overflow: hidden;
     margin-top: 5px;
 }
@@ -40,3 +40,79 @@ html{
 .main-nav a:hover {
     background-color: #ff810a;
 }
+
+#kotlin{
+    margin-top: -25px;
+    margin-left: 50px;
+    width: 250px;
+    height: 200px;
+}
+
+#firebase{
+    margin-top: -25px;
+    margin-left: 50px;
+    width: 250px;
+    height: 200px;
+}
+
+#python{
+    margin-top: -25px;
+    margin-left: 50px;
+    width: 250px;
+    height: 200px;
+}
+
+#c{
+    margin-top: -55px;
+    margin-left: 50px;
+    width: 250px;
+    height: 200px;
+}
+
+#sqlserver{
+    margin-top: -25px;
+    margin-left: 50px;
+    width: 250px;
+    height: 170px;
+}
+
+.entry p {
+    margin-left: 50px;
+    margin-right: 100px;
+    text-align: justify;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (min-width: 768px) {
+    .entry img {
+    padding-top: 2em;
+      width: 18.75em;
+      float: left;
+      margin: 0 1.25em 0 0;
+    }
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.main-content{
+    margin-top: 2.5em;
+    padding: 0;
+}
+
+h2{
+    color: #000000;
+    margin-top: 1em;
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+/*
+body{
+    background-color: RGB(202, 42, 29);
+}
+*/
